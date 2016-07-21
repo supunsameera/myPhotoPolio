@@ -1,0 +1,41 @@
+ body{
+ 	background:url('img/background.png');
+ }
+ .header{
+ 	margin:30px;
+ }
+
+  .img-grid-wrapper img{
+height:150px;
+width:100%;
+  }
+  .thumbnail-wrapper{
+  	cursor:pointer;
+  	
+  }
+.thumbnail-wrapper img:hover{
+	 box-shadow: 0 0 30px rgb(111, 111, 111);
+	 transition:all 0.5s;
+}
+  .imageSliderContainer{
+ 
+  }
+  .imageSliderWrapper{
+  	min-height:400px;
+  	background:white;
+  }
+  .category li>a{
+  	min-width:100px;
+  	background:#e0e0e0;
+  }
+  .category li>a:hover{
+  	min-width:100px;
+  	background:#95C5EF;
+  }
+
+.imagesWrapper{
+	/* min-height:400px;
+	background-image: url(img/loader.gif);
+    background-size: cover;
+    background-position: center; */
+}
